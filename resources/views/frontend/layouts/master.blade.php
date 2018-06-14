@@ -29,10 +29,10 @@
     <meta name="Resource-type" content="Document" />
 
     <link rel="canonical" href="http://ahbk.kz" />
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="css/remodal-default-theme.css">
-    <link rel="stylesheet" href="css/remodal.css">
+    <link rel="stylesheet" href="/css/remodal-default-theme.css">
+    <link rel="stylesheet" href="/css/remodal.css">
 
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
@@ -40,12 +40,12 @@
     <link rel="manifest" href="manifest.json">
     <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/jquery.fullpage.css">
+    <link rel="stylesheet" href="/css/fontawesome.css">
+    <link rel="stylesheet" href="/css/animate.css">
+    <link rel="stylesheet" href="/css/jquery.fullpage.css">
     <!-- <link rel="stylesheet" type="text/css" href="{{ asset('/css/styles.css') }}"> -->
-    <link rel="stylesheet" href="css/newStyles.css">
-    <link rel="stylesheet" href="css/newMobile.css">
+    <link rel="stylesheet" href="/css/newStyles.css">
+    <link rel="stylesheet" href="/css/newMobile.css">
     
     <!-- mystyles -->
     <!-- <link rel="stylesheet" type="text/css" href="{{ asset('/css/mystyles.css') }}"> -->
@@ -109,16 +109,7 @@
           
           @yield('scripts_body')
 
-          //Определяю ширину экрана
-          var size = $(window).width();
-          //Если ширина экрана юольше 991px то инитиализирую fullpage, иначе не инициализирую, такми образом на мобильных экранах fullpage не будет инициализироваться а не desktop будет
-          if (size > '991'){
 
-            $('#fullpage').fullpage({
-              // scrollBar: true,
-              normalScrollElements: '.scrollable-element',
-            });
-          }
 
           //bootstrap slider
           $('.carousel').carousel({

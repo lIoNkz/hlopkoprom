@@ -19,6 +19,7 @@ Route::get('/', 'SiteController@index');
 Route::get('/about', 'SiteController@about');
 Route::get('/aboutTest', 'SiteController@aboutTest');
 Route::get('/products', 'SiteController@products');
+Route::get('/products/{id}', 'SiteController@product');
 Route::get('/contacts', 'SiteController@contacts');
 Route::post('/contacts', [
 	'uses'  => 	'SiteController@store',

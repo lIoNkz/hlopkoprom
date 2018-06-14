@@ -98,7 +98,7 @@
 
 </style>
 <div id="fullpage">
-	<div class="contactsWrapper section">
+	<div class="contactsWrapper section2">
 	<div class="row" id="space">
 		@if($message == !null) {!! $message !!} @endif
 	</div> 
@@ -106,7 +106,7 @@
 		<div id="pseudoElement"></div>
 		<div class="row">
 			<div class="col-md-7">
-				@include('frontend.partials._title')
+				<h2 class="whiteText companyTitle">Контакты</h2>
 			</div>
 			<div class="col-md-5">
 				@include('frontend.partials._search')
