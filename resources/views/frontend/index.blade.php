@@ -10,6 +10,10 @@
 #nav-icon span {
     background: #fff;
 } */
+
+.romb_css {
+  overflow: hidden;
+}
 </style>
 <div id="fullpage" class="homeDesktop">
   <div id="main" class="section" style="background-image: url('images/1523103773.jpg');">
@@ -27,46 +31,46 @@
         @include('frontend.partials._search')
         <div class="rombBlocks">
           <div class="rombBlockFirst">
-            <div class="romb1" id="romb1">
-              <div><img src="images/romb-1.png" alt="slide"></div>
-              <div><img src="images/romb-2.png" alt="slide"></div>
-              <div><img src="images/romb-3.png" alt="slide"></div>
+            <div class="romb1 romb_css" id="romb1">
+              <div><img src="/images/rombs/1.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/2.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/3.jpg" alt="slide"></div>
             </div>
           </div>
           <div class="rombBlockTwo">
-            <div class="romb2" id="romb2">
-              <div><img src="images/romb-1.png" alt="slide"></div>
-              <div><img src="images/romb-2.png" alt="slide"></div>
-              <div><img src="images/romb-3.png" alt="slide"></div>
+            <div class="romb2 romb_css" id="romb2">
+              <div><img src="/images/rombs/4.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/5.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/6.jpg" alt="slide"></div>
             </div>
-            <div class="romb3" id="romb3">
-              <div><img src="images/romb-1.png" alt="slide"></div>
-              <div><img src="images/romb-2.png" alt="slide"></div>
-              <div><img src="images/romb-3.png" alt="slide"></div>
+            <div class="romb3 romb_css" id="romb3">
+              <div><img src="/images/rombs/7.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/8.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/9.jpg" alt="slide"></div>
             </div>
           </div>
           <div class="rombBlockThree">
-            <div class="romb4" id="romb4">
-              <div><img src="images/romb-1.png" alt="slide"></div>
-              <div><img src="images/romb-2.png" alt="slide"></div>
-              <div><img src="images/romb-3.png" alt="slide"></div>  
+            <div class="romb4 romb_css" id="romb4">
+              <div><img src="/images/rombs/10.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/11.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/12.jpg" alt="slide"></div> 
             </div>
-            <div class="romb5" id="romb5">
-              <div><img src="images/romb-1.png" alt="slide"></div>
-              <div><img src="images/romb-2.png" alt="slide"></div>
-              <div><img src="images/romb-3.png" alt="slide"></div>
+            <div class="romb5 romb_css" id="romb5">
+              <div><img src="/images/rombs/6.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/8.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/4.jpg" alt="slide"></div>
             </div>
           </div>
           <div class="rombBlockFour">
-            <div class="romb6" id="romb6">
-              <div><img src="images/romb-1.png" alt="slide"></div>
-              <div><img src="images/romb-2.png" alt="slide"></div>
-              <div><img src="images/romb-3.png" alt="slide"></div>
+            <div class="romb6 romb_css" id="romb6">
+              <div><img src="/images/rombs/12.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/7.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/5.jpg" alt="slide"></div>
             </div>
-            <div class="romb7" id="romb7">
-              <div><img src="images/romb-1.png" alt="slide"></div>
-              <div><img src="images/romb-2.png" alt="slide"></div>
-              <div><img src="images/romb-3.png" alt="slide"></div>
+            <div class="romb7 romb_css" id="romb7">
+              <div><img src="/images/rombs/11.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/2.jpg" alt="slide"></div>
+              <div><img src="/images/rombs/9.jpg" alt="slide"></div>
             </div>
           </div>  
         </div>

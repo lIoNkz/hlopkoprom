@@ -404,8 +404,7 @@ a.svyazatsya:hover{
 .romb5 div img,
 .romb6 div img,
 .romb7 div img {
-  width: 90%;
-  height: 90%;
+  width: 150%;
    transform: rotate(-45deg);
 }
 
