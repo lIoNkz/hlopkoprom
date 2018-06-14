@@ -469,7 +469,6 @@ a.svyazatsya:hover{
   /*height: 100%;*/
   padding: 2% 3%;
   margin-left: 90px;
-  overflow: hidden;
 }
 
 .aboutText{
@@ -502,7 +501,6 @@ a.svyazatsya:hover{
   background-size: 100% 100%;
   padding: 2% 3%;
   margin-left: 90px;
-  overflow: hidden;
 }
 
 .productText{
@@ -561,7 +559,6 @@ a.svyazatsya:hover{
   background-size: 100% 100%;
   padding: 2% 3%;
   margin-left: 90px;
-  overflow: hidden;
 }
 
 .contactRow{
@@ -786,4 +783,19 @@ li.mySlide{
   margin: 0 auto;
   float: left;
   margin-right: 30px;
+}
+
+
+@media (max-width: 576px) {
+  body {
+    background-color: #12379d;
+  }
+  h2 {
+    font-size: 1.5em !important;
+  }
+  .contactsWrapper,
+  .wrapperAbout,
+  .wrapperProducts {
+    background-size: unset;
+  }
 }
