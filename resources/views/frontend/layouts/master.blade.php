@@ -28,7 +28,7 @@
     <meta name="twitter:url" content="">
     <meta name="Resource-type" content="Document" />
 
-    <link rel="canonical" href="http://ahbk.kz" />
+    <link rel="canonical" href="http://hlopkoprom.kz" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
 
     <link rel="stylesheet" href="/css/remodal-default-theme.css">
@@ -64,6 +64,11 @@
 </head>
 <body>
     <div id="mySidenav" class="sidenav">
+      <div class="logodiv" style="width: 250px;">
+        <img src="/images/logo.jpg" alt="logo" class="logo">
+        <h3>Хлопкопром</h3>        
+      </div>
+
       <a href="javascript:void(0)" class="" id="bar">
         <div class="bar1"></div>
         <div class="bar2"></div>

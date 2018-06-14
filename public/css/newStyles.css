@@ -33,7 +33,7 @@ body {
     z-index: 1;
     top: 0;
     /*left: 20px;*/
-    background-color: #075AC4;
+    background-color: #0a06f3;
     overflow-x: hidden;
     transition: 0.5s;
     padding: 20px 25px;
@@ -220,7 +220,8 @@ a.svyazatsya:hover{
 .bar1, .bar2, .bar3 {
   background-color: #fff;
   border-radius: 8px;
-  width: 45px;
+  width: 100%;
+  max-width: 40px;
   height: 4px;
   margin: 7px 0;
   transition: 0.4s;
@@ -776,4 +777,13 @@ li.mySlide{
 
 .carousel-item {
   cursor: e-resize;
+}
+
+
+.logo {
+  width: 100%;
+  max-width: 40px;
+  margin: 0 auto;
+  float: left;
+  margin-right: 30px;
 }
