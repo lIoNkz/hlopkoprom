@@ -18,7 +18,6 @@
   <div class="containerFirst">
     <div class="row">
       <div class="col-md-12">
-        <h5>О компании</h5>
         <p class="whiteText aboutText textIndent">
         ТОО «Хлопкопром-Целлюлоза» занимается производством продукции из хлопкового сырья. Номенклатура предприятия включает в себя следующие виды продукции:
         </p>
