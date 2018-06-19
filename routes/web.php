@@ -16,6 +16,7 @@ Route::get('/', function () {
 });
 
 Route::get('/', 'SiteController@index');
+Route::get('/gallery', 'SiteController@gallery');
 Route::get('/about', 'SiteController@about');
 Route::get('/aboutTest', 'SiteController@aboutTest');
 Route::get('/products', 'SiteController@products');

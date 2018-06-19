@@ -18,6 +18,11 @@ class SiteController extends Controller
     	return view('frontend.about');
     }
 
+    public function gallery()
+    {
+        return view('frontend.gallery');
+    }
+
     public function products()
     {
     	return view('frontend.products');
