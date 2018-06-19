@@ -46,7 +46,7 @@
 <body>
     <div id="mySidenav" class="sidenav">
       <div class="logodiv" style="width: 250px;">
-        <a href="/"><img src="/images/logo.jpg" alt="logo" class="logo"></a>
+        <a href="/"><img src="/images/icons/logo.png" alt="logo" class="logo"></a>
         <h3>Хлопкопром</h3>        
       </div>
 
@@ -56,7 +56,7 @@
         <div class="bar3"></div>
       </a>
       <div class="links">
-        <a href="/" class="homeLink" title="Главная">Главная</a>
+        <a href="/gallery" class="homeLink" title="Главная">Галерея</a>
         <!-- <a href="#" class="newsLink" title="Новости">Новости</a> -->
         <a href="/about" class="aboutLink" title="О компании">О компании</a>
         <a href="/products" class="catalogLink" title="Каталог продукции">Каталог продукции</a>
@@ -72,7 +72,7 @@
         <div class="bar3"></div>
     </span>
     <div id="mobileSideMenu" class="mobileSidenav">
-      <a href="/" class="mMenu mMenu1" title="Главная">Главная</a>
+      <a href="/gallery" class="mMenu mMenu1" title="Главная">Галерея</a>
       <a href="/about" class="mMenu mMenu2" title="О компании">О компании</a>
       <a href="/products" class="mMenu mMenu3" title="Каталог пролукции">Каталог продукции</a>
       <a href="/contacts" class="mMenu mMenu4" title="Контакты">Контакты</a>
