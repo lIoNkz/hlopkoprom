@@ -16,70 +16,110 @@
 }
 </style>
 <div  id="fullpage" class="homeDesktop">
-  <div id="main" class="section" style="background-image: url('images/1523103773.jpg');">
+  <div class="section" style="background-image: url('images/fullpage/1.jpg');">
     <div id="pseudoElement"></div>
     <div class="row">
       <div class="col-lg-7">
-        <h2 class="whiteText companyTitle">Хлопкопром</h2>
-        <p class="whiteText contentText textIndent">ТОО «Хлопкопром-Целлюлоза» реализует проект «Организация производства гигроскопической ваты, хлопковой целлюлозы и технической карбоксиметилцеллюлозы из хлопкосодержащего сырья».</p>
-<p class="whiteText contentText textIndent"> Место реализации проекта – ЮКО, СЭЗ «Онтустiк».
-Бизнес ставит целью внедрение новых мировых технологий  на  основе местного сырья и  производства готовой продукции из хлопкосодержащего сырья;  повышение импортозамещения товаров и выход на   мировой рынок,  а так же  реализацию программы вхождения в  50-ку   развитых стран  ВТО. 
-</p>
-<p class="whiteText contentText textIndent">В дальнейшем при внедрении данного производства планируется изучение данного   продукта в  различных отраслях промышленности.</p>
-</p>  
-        <a href="/contacts" class="svyazatsya whiteText">СВЯЗАТЬСЯ</a>
+        <p class="whiteText contentText textIndent">Единственный на сегодняшний день производитель КМЦ в Казахстане</p>
+        </p>  
       </div>
-      <div class="col-lg-5">
-        @include('frontend.partials._search')
-        <div class="rombBlocks">
-          <div class="rombBlockFirst">
-            <div class="romb1 romb_css" id="romb1">
-              <div><img src="/images/rombs/1.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/2.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/3.jpg" alt="slide"></div>
-            </div>
-          </div>
-          <div class="rombBlockTwo">
-            <div class="romb2 romb_css" id="romb2">
-              <div><img src="/images/rombs/4.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/5.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/6.jpg" alt="slide"></div>
-            </div>
-            <div class="romb3 romb_css" id="romb3">
-              <div><img src="/images/rombs/7.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/8.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/9.jpg" alt="slide"></div>
-            </div>
-          </div>
-          <div class="rombBlockThree">
-            <div class="romb4 romb_css" id="romb4">
-              <div><img src="/images/rombs/10.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/11.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/12.jpg" alt="slide"></div> 
-            </div>
-            <div class="romb5 romb_css" id="romb5">
-              <div><img src="/images/rombs/6.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/8.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/4.jpg" alt="slide"></div>
-            </div>
-          </div>
-          <div class="rombBlockFour">
-            <div class="romb6 romb_css" id="romb6">
-              <div><img src="/images/rombs/12.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/7.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/5.jpg" alt="slide"></div>
-            </div>
-            <div class="romb7 romb_css" id="romb7">
-              <div><img src="/images/rombs/11.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/2.jpg" alt="slide"></div>
-              <div><img src="/images/rombs/9.jpg" alt="slide"></div>
-            </div>
-          </div>  
-        </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+  <div class="section" style="background-image: url('images/fullpage/2.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Продукция производится на основе высококачественного Казахстанского сырья</p>
+        </p>  
       </div>
-    </div>  
-  </div>
-</div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+  <div class="section" style="background-image: url('images/fullpage/3.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Годовая производительность составляет <br>
+        Гигроскопическая вата - 2500 тонн<br>
+        Хлопковая целлюлоза - 3500 тонн <br>
+        Карбоксиметилцеллюлоза - 4000 тонн
+        </p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+  <div class="section" style="background-image: url('images/fullpage/4.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Технология производства позволяет выпускать продукцию под индивидуальный заказ определенных технических параметров необходимых каждому отдельному клиенту</p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+  <div class="section" style="background-image: url('images/fullpage/5.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Компания производит указанную продукцию любых марок и качественных характеристик</p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+    <div class="section" style="background-image: url('images/fullpage/6.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Производство оснащено высокотехнологичным современным оборудованием - автоматизировано и экологически безвредно</p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+    <div class="section" style="background-image: url('images/fullpage/7.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">С момента запуска в 2010 году мы освоили технологию производства и вышли на проектную мощность</p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+    <div class="section" style="background-image: url('images/fullpage/8.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Персонал предприятия прошел специализированное обучение</p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+    <div class="section" style="background-image: url('images/fullpage/9.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Наше производство не имеет аналогов в Казахстане</p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+      <div class="section" style="background-image: url('images/fullpage/10.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Производственной мощности предприятия достаточно для удовлетворения потребности Казахстана в данных видах продукции</p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+      <div class="section" style="background-image: url('images/fullpage/11.jpg');">
+    <div id="pseudoElement"></div>
+    <div class="row">
+      <div class="col-lg-7">
+        <p class="whiteText contentText textIndent">Kazkarbo - это зарегистрированная товарная марка высококачественной карбоксиметилцеллюлозы</p>
+        </p>  
+      </div>
+    </div>  <!-- row -->
+  </div><!-- main section -->
+</div><!-- fullpage -->
 @endsection
 
 @section('scripts_body')
@@ -98,8 +138,16 @@
           if (size > '991'){
 
             $('#fullpage').fullpage({
-              // scrollBar: true,
-              normalScrollElements: '.scrollable-element',
+              scrollingSpeed: 700,
+              autoScrolling: true,
+              afterRender: function () {
+                  setInterval(function () {
+                      $.fn.fullpage.moveSectionDown();
+                  }, 10000);
+              },
+              loopBottom: true,
+              loopTop: true
+
             });
           }
 

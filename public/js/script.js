@@ -3,7 +3,7 @@ var a = document.getElementById("bar");
 a.addEventListener("click",openNav);
 
 function openNav() {
-	document.getElementById("mySidenav").style.width = document.getElementById("mySidenav").style.width === "300px" ? "90px" : "300px" ;
+	document.getElementById("mySidenav").style.width = document.getElementById("mySidenav").style.width === "300px" ? "80px" : "300px" ;
   
   // document.getElementById("main").style.marginLeft = document.getElementById("main").style.marginLeft === "250px" ? "90px" : "250px" ;
      

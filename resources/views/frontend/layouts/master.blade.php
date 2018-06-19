@@ -4,29 +4,12 @@
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112536242-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
 
-	  gtag('config', 'UA-112536242-1');
-	</script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Хлопкопром</title>
 
-    <meta name="author" content="Hitech - qaz-tech.kz" />
-    <meta name="description" content="АХБК - хлопчатобумажный комбинат" />
-    <meta name="keywords"  content="ключевые слова" /> 
-    <meta name="viewport" content="width=device-width, height=device-height ,initial-scale=1">
-    <meta property="og:title" content="АХБК - хлопчатобумажный комбинат">
-    <meta property="og:type" content="website">
-    <meta property="og:description" content="АХБК - хлопчатобумажный комбинат">
-    <meta name="twitter:title" content="АХБК - хлопчатобумажный комбинат">
-    <meta name="twitter:description" content="АХБК - хлопчатобумажный комбинат">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:url" content="">
-    <meta name="Resource-type" content="Document" />
+
 
     <link rel="canonical" href="http://hlopkoprom.kz" />
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -63,7 +46,7 @@
 <body>
     <div id="mySidenav" class="sidenav">
       <div class="logodiv" style="width: 250px;">
-        <img src="/images/logo.jpg" alt="logo" class="logo">
+        <a href="/"><img src="/images/logo.jpg" alt="logo" class="logo"></a>
         <h3>Хлопкопром</h3>        
       </div>
 
