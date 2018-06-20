@@ -1,5 +1,14 @@
 @extends('frontend.layouts.master')
 
+
+
+
+@section('head')
+
+<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+@endsection
+
+
 @section('content')
 <style type="text/css">
 
@@ -97,21 +106,17 @@
 			</div>
 		</div>
 		<div class="row contactRow">
-			<div class="col-12 col-lg-3 col-md-3 col-sm-3 contactsBlocks">
-				<img src="/images/mapImg.png" alt="" class="contactImg contMobileImg">
-				<p>Казахстан, ЮКО, Ваш адрес</p>
+			<div class="col-md-6">
+				<div id="map" style="width: 100%; height: 500px;"></div>
+				
 			</div>
-			<div class="col-12 col-lg-3 col-md-3 col-sm-3 contactsBlocks">
-				<img src="/images/telImg.png" alt="" class="contactImg contMobileImg">
-				<p>8-777-777-77-77</p>
-			</div>
-			<div class="col-12 col-lg-3 col-md-3 col-sm-3 contactsBlocks">
-				<img src="/images/mailImg.png" alt="" class="contactImg mailMobile">
-				<p>test@test.test </p>
-			</div>
-		</div>
-		<div class="callBackwrapper">
-			<div class="callBack">
+			<div class="col-md-4 contactInfo">
+				<p class="fg1">Телефон</p>
+				<p class="fg2">8-777-777-77-77</p>
+				<p class="fg1">Адрес</p>
+				<p class="fg2">Казахстан, ЮКО, Ваш адрес</p>
+				<p class="fg1">E-mail</p>
+				<p class="fg2">hlopkoprom@gmail.com</p>
 				<a class="callBackButton" data-remodal-target="modal">Заказать обратный звонок</a>
 			</div>
 		</div>
@@ -206,7 +211,27 @@ $(document).ready(function() {
 	$('.success-text').delay(3000).fadeOut(500);
 });
 
+
+// yandex map
+ymaps.ready(init);
+var myMap, 
+    myPlacemark;
+
+function init(){ 
+    myMap = new ymaps.Map("map", {
+        center: [55.76, 37.64],
+        zoom: 7
+    }); 
+    
+    myPlacemark = new ymaps.Placemark([55.76, 37.64], {
+        hintContent: 'Москва!',
+        balloonContent: 'Столица России'
+    });
+    
+    myMap.geoObjects.add(myPlacemark);
+}
+// end yandex map
 </script>
 
-    
+<script src="/js/remodal.min.js"></script>   
 @endsection

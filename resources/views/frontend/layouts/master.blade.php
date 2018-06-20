@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/remodal-default-theme.css">
     <link rel="stylesheet" href="/css/remodal.css">
+    <link rel="stylesheet" href="/css/lightbox.min.css">
 
 
     <link rel="stylesheet" href="/css/fontawesome.css">
@@ -26,7 +27,7 @@
     <!-- fontawesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
-    @yield('styles')
+    @yield('head')
 </head>
 <body>
 
@@ -39,7 +40,6 @@
   <script src="/js/bootstrap.min.js"></script>
   <script src="/js/jquery.touchSwipe.js"></script>
   <script src="/js/scroll.js"></script>
-  <script src="/js/remodal.min.js"></script>
   <script src="/js/script.js"></script>
   @yield('scripts_body')
 

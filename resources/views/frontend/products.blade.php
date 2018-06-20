@@ -6,40 +6,45 @@
       <div id="pseudoElement"></div>
       <div class="row">
         <div class="col-md-7 offset-md-2">
-                  <h2 class="whiteText companyTitle">Продукция</h2>
+            <h2 class="whiteText companyTitle">Продукция</h2>
+          
+        </div>
+        <div class="col-md-3">
+          @include('frontend.partials._search')
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10 offset-md-2">
           <p class="whiteText productText textIndent">
-На территории ЮКО выращивается хлопчатник. В результате его переработки получается хлопковое волокно и хлопковые отходы - линт, улюк. Данное хлопковое сырье применяется для производства нашей продукции: 
-хлопковое волокно 5 сорта и улюк используется в производстве гигроскопической ваты; 
-линт используется в производстве хлопковой целлюлозы. В процессе химической обработки специальными реагентами из хлопковой целлюлозы получают техническую и очищенную карбоксиметилцеллюлозу.
+            На территории ЮКО выращивается хлопчатник. В результате его переработки получается хлопковое волокно и хлопковые отходы - линт, улюк. Данное хлопковое сырье применяется для производства нашей продукции: 
+            хлопковое волокно 5 сорта и улюк используется в производстве гигроскопической ваты; 
+            линт используется в производстве хлопковой целлюлозы. В процессе химической обработки специальными реагентами из хлопковой целлюлозы получают техническую и очищенную карбоксиметилцеллюлозу.
           </p>  
           <p class="whiteText productText textIndent">Производство оснащено высокотехнологичным современным оборудованием, отвечающим международным стандартам качества ISO-9000.
           </p>
           <p class="whiteText productText textIndent">Проект является уникальным и не имеет аналогов в РК. Объем и номенклатура продукции позволяют утверждать, что завод не имеет аналогов на территории СНГ.
           </p>
         </div>
-        <div class="col-md-3">
-          @include('frontend.partials._search')
-        </div>
-      </div>
-      <div class="row prodImgsWrap">
+      </div>      
+      <div class="row" style="margin-left: 225px;">
         <div class="col-md-2 col-12">
           <div class="prodImg">
-            <a href="/products/1" class="prodLink" title="Хлопковая гигроскопическая вата"><img src="/images/rombs/10.jpg" alt="" class="prod1"></a>
+            <a href="/products/1" class="prodLink" title="Хлопковая гигроскопическая вата"><img src="/images/gallery/10.jpg" alt="" class="prod1"></a>
           </div>
         </div>
         <div class="col-md-2 col-12">
           <div class="prodImg">
-            <a href="/products/2" class="prodLink2" title="Хлоковая целлюлоза"><img src="/images/rombs/11.jpg" alt="" class="prod2"></a>
+            <a href="/products/2" class="prodLink2" title="Хлоковая целлюлоза"><img src="/images/gallery/11.jpg" alt="" class="prod2"></a>
           </div>
         </div>
         <div class="col-md-2 col-12">
           <div class="prodImg">
-            <a href="/products/3" class="prodLink3" title="Карбоксиметилцеллюлоза"><img src="/images/rombs/m2.jpg" alt="" class="prod3"></a>
+            <a href="/products/3" class="prodLink3" title="Карбоксиметилцеллюлоза"><img src="/images/gallery/m1.jpg" alt="" class="prod3"></a>
           </div>
         </div>
         <div class="col-md-2 col-12">
           <div class="prodImg">
-            <a href="/products/4" class="prodLink4" title="Очищенная КМЦ"><img src="/images/rombs/m3.jpg" alt="" class="prod4"></a>
+            <a href="/products/4" class="prodLink4" title="Очищенная КМЦ"><img src="/images/gallery/m3.jpg" alt="" class="prod4"></a>
           </div>
         </div>
       </div>
