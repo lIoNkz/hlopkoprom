@@ -488,8 +488,10 @@ cursor: pointer;
 }
 .aboutPage {
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
   overflow: hidden;
+  background-image: url('../images/aboutBg-1.jpg');
 }
 .aboutText{
   font-family: DinProLight;
@@ -524,7 +526,7 @@ cursor: pointer;
   overflow: hidden;
 }
 .galleryDesktop {
-  background: url(../images/aboutBg-2.jpg) no-repeat;
+  background: url(../images/gallery_bg.jpg) no-repeat;
   background-size: 100% 100%;
   overflow: hidden;
 }
@@ -582,7 +584,8 @@ cursor: pointer;
 
 .contactsPage {
   background: url(../images/aboutBg-3.jpg) no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
   overflow: hidden;
 }
 .contactRow{
@@ -941,7 +944,7 @@ a:hover {
 }
 .aboutList  {
   background-color: #3b6379b3;
-  border-radius: 8px;
+  margin-top: -5px;
 }
 
 .aboutText ol li{

@@ -15,7 +15,7 @@
   overflow: hidden;
 }
 </style>
-<div  id="fullpage" class="homeDesktop">
+<div class="homeDesktop">
   <div class="section" style="background-image: url('images/fullpage/1.jpg');">
     <div id="pseudoElement"></div>
     <div class="row">
@@ -123,32 +123,7 @@
 @endsection
 
 @section('scripts_body')
-
-
-    $(document).ready(function(){
-        $('#nav-icon').click(function(){
-            $(this).toggleClass('open');
-            $('#nav-block').slideToggle();
-        });
-    });
-
-          //Определяю ширину экрана
-          var size = $(window).width();
-          //Если ширина экрана юольше 991px то инитиализирую fullpage, иначе не инициализирую, такми образом на мобильных экранах fullpage не будет инициализироваться а не desktop будет
-          if (size > '991'){
-
-            $('#fullpage').fullpage({
-              scrollingSpeed: 700,
-              autoScrolling: true,
-              afterRender: function () {
-                  setInterval(function () {
-                      $.fn.fullpage.moveSectionDown();
-                  }, 10000);
-              },
-              loopBottom: true,
-              loopTop: true
-
-            });
-          }
-
+<script>
+  
+</script>
 @endsection

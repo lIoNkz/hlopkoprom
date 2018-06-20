@@ -32,19 +32,6 @@
     border-bottom: 2px solid #17a2b8;
 }
 
-
-/* .btns {
-	display: inline-block;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    padding: 2% 5%;
-    font-size: 1.5em;
-    line-height: 1.5;
-    border: none;
-} */
-
 .remodal h3 {
 	font-size: 1.5em;
 	font-family: "DinPro";
@@ -105,11 +92,8 @@
 
 		<div id="pseudoElement"></div>
 		<div class="row">
-			<div class="col-md-7 offset-md-2">
+			<div class="col-md-10 offset-md-2">
 				<h2 class="whiteText companyTitle">Контакты</h2>
-			</div>
-			<div class="col-md-3">
-				@include('frontend.partials._search')
 			</div>
 		</div>
 		<div class="row contactRow">
@@ -207,18 +191,22 @@ NAMESPACE: 'modal',
 
 @endsection
 	
+
+
+
+
+
+
+
 @section('scripts_body')
- 
+<script>
 
-    $('#nav-icon').click(function(){
-        $(this).toggleClass('open');
-		$('#nav-block').slideToggle();
-    });
-
-
+$(document).ready(function() {
     $('#phone_mask').mask('+7 (799) 999-99-99');
-
 	$('.success-text').delay(3000).fadeOut(500);
+});
+
+</script>
 
     
 @endsection

@@ -4,16 +4,13 @@
 <style>
 
 </style>
-<div class="desktopAboutPage anoutPage" style="background: #012896bb">
-  <div class="wrapper section2" style="background-image: url('images/aboutBg-1.jpg');">
+<div class="desktopAboutPage aboutPage">
+  <div class="wrapper section2">
     <div id="pseudoElement"></div>
     <div class="row">
-      <div class="col-md-7 offset-md-2">
+      <div class="col-md-10 offset-md-2">
        <h2 class="whiteText companyTitle">О нас</h2>
      </div>
-     <div class="col-md-3">
-      @include('frontend.partials._search')
-    </div>
   </div>
   <div class="containerFirst">
     <div class="row">
@@ -39,7 +36,7 @@
           современным оборудованием. Имеется сертификат происхождения CT-KZ. 
           В данное время ведутся переговоры по аккредитации 
           лаборатории по стандартам API.
-</p>
+        </p>
       </div>
     </div>
   </div>
