@@ -44,44 +44,10 @@
 
 </head>
 <body>
-    <div id="mySidenav" class="sidenav">
-      <div class="logodiv" style="width: 250px;">
-        <a href="/"><img src="/images/icons/logo.png" alt="logo" class="logo"></a>
-        <h3>Хлопкопром</h3>        
-      </div>
 
-      <a href="javascript:void(0)" class="" id="bar">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-      </a>
-      <div class="links">
-        <a href="/gallery" class="homeLink" title="Главная">Галерея</a>
-        <!-- <a href="#" class="newsLink" title="Новости">Новости</a> -->
-        <a href="/about" class="aboutLink" title="О компании">О компании</a>
-        <a href="/products" class="catalogLink" title="Каталог продукции">Каталог продукции</a>
-        <!-- <a href="#" class="skidkiLink" title="Скидки">Скидки и рассылки</a> -->
-        <!-- <a href="#" class="addressLink" title="Где нас найти?">Где нас найти?</a> -->
-        <a href="/contacts" class="contactsLink" title="Контакты">Контакты</a>
-      </div>
-    </div>
-    <!-- Start mobile menu -->
-    <span id="mMenuOpenBtn" class="" style="font-size:30px; cursor:pointer">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </span>
-    <div id="mobileSideMenu" class="mobileSidenav">
-      <a href="/gallery" class="mMenu mMenu1" title="Главная">Галерея</a>
-      <a href="/about" class="mMenu mMenu2" title="О компании">О компании</a>
-      <a href="/products" class="mMenu mMenu3" title="Каталог пролукции">Каталог продукции</a>
-      <a href="/contacts" class="mMenu mMenu4" title="Контакты">Контакты</a>
-    </div>
-    <!-- End mobile menu -->
     @yield('content')
 
-    @include('frontend.partials._langs')
-
+@include('frontend.partials._menu')
   <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
   <script src="js/jquery.fullpage.js"></script>
   <script src="{{ asset('js/jquery.maskedinput.js') }}"></script>
@@ -92,38 +58,7 @@
 
   <script type="text/javascript">
       $(document).ready(function() {
-          
           @yield('scripts_body')
-
-
-
-          //bootstrap slider
-          $('.carousel').carousel({
-            interval: 10000,
-            pause: "false",
-          });
-
-  		//Enable swiping...
-          $(".carousel-inner").swipe( {
-          	//Generic swipe handler for all directions
-              swipeLeft:function(event, direction, distance, duration, fingerCount) {
-              	$(this).parent().carousel('next'); 
-              },
-              swipeRight: function() {
-              	$(this).parent().carousel('prev'); 
-              },
-              //Default is 75px, set to 0 for demo so any distance triggers swipe
-              threshold:0
-          });
-
-          $(".searchInput").focus(function(){
-            $(this).data('value',$(this).attr('value'));
-            $(this).attr('value', '')
-          });
-
-          $(".searchInput").blur(function(){
-            $(this).attr('value', $(this).data('value'));
-          });
       });
   </script>
   <script src="js/script.js"></script>
