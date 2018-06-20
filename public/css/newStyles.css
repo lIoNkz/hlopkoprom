@@ -682,31 +682,29 @@ cursor: pointer;
 }
 .carousel-item {
   /*background-color: yellow;*/
-  opacity: .5; /*Added clone in this line*/
+  opacity: .75; /*Added clone in this line*/
+  cursor: default !important;
 }
 a.carousel-control-next:link, a.carousel-control-prev:link {
   background-color: transparent;
   text-decoration: none;
-  opacity: .5;
+  opacity: 0;
 }
 a.carousel-control-next:hover, a.carousel-control-prev:hover  {
   background-color: transparent;
   text-decoration: none;
-  opacity: 1;
+  opacity: 0;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
   position:relative;
-  background-image: none;
 }    
 .carousel-control-next-icon:before {
   top:0;
-  left:-5px;
-  padding-right:10px;
+
  }
 .carousel-control-prev-icon:before {
   top:0;
-  left:-5px;
-  padding-right:10px;
+
 }
 .sidebar {
   background-color: #e1e1e1;
@@ -816,11 +814,19 @@ li.mySlide{
 }
 
 .carousel-indicators {
-  bottom: 50px !important;
-  display: none;
+  bottom: 25px !important;
   
 }
 
+.carousel-indicators li{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+}
+
+.carousel-caption {
+  margin-bottom: 30px;
+}
 .carousel-item {
   cursor: e-resize;
 }
@@ -990,3 +996,36 @@ a:hover {
   border-radius: 2px;
   margin: 0 auto;
 }
+
+
+
+/*------------------------index page bootstrap slider ----------------------*/
+
+.homeDesktop {
+  width: 100vw;
+  height: 100vh;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-item {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+.carousel-item:nth-child(1) {background-image: url('../images/fullpage/1.jpg');}
+.carousel-item:nth-child(2) {background-image: url('../images/fullpage/2.jpg');}
+.carousel-item:nth-child(3) {background-image: url('../images/fullpage/3.jpg');}
+.carousel-item:nth-child(4) {background-image: url('../images/fullpage/4.jpg');}
+.carousel-item:nth-child(5) {background-image: url('../images/fullpage/5.jpg');}
+.carousel-item:nth-child(6) {background-image: url('../images/fullpage/6.jpg');}
+.carousel-item:nth-child(7) {background-image: url('../images/fullpage/7.jpg');}
+.carousel-item:nth-child(8) {background-image: url('../images/fullpage/8.jpg');}
+.carousel-item:nth-child(9) {background-image: url('../images/fullpage/9.jpg');}
+.carousel-item:nth-child(10) {background-image: url('../images/fullpage/10.jpg');}
+.carousel-item:nth-child(11) {background-image: url('../images/fullpage/11.jpg');}
