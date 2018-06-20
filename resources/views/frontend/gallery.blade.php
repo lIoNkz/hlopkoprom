@@ -11,35 +11,41 @@
       </div>
       <div class="row galleryRow">
       	<div class="imgBlock">
-      		<img src="/images/fullpage/1.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/1.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/2.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/2.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/3.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/3.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/4.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/4.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/5.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/5.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/6.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/6.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/7.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/7.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/8.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/8.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/9.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/9.jpg" alt="" class="galleryImg">
       	</div>
       	<div class="imgBlock">
-      		<img src="/images/fullpage/10.jpg" alt="" class="galleryImg">
+      		<img src="/images/gallery/10.jpg" alt="" class="galleryImg">
       	</div>
+        <div class="imgBlock">
+          <img src="/images/gallery/11.jpg" alt="" class="galleryImg">
+        </div>
+        <div class="imgBlock">
+          <img src="/images/gallery/12.jpg" alt="" class="galleryImg">
+        </div>
       </div>
     </div>
   </div>
