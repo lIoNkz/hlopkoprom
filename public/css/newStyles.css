@@ -715,7 +715,7 @@ li.mySlide{
 }
 
 .containerFirst{
-  width: 60%;
+  width: 100%;
   float: left;
   /*margin-right: 10px;*/
   padding-right: 35px;
@@ -779,7 +779,8 @@ li.mySlide{
 
 .textIndent {
     font-family: DinPro;
-    background: #3b6379;
+    background: #3b6379b3;
+    border-radius: 8px;
     padding: 10px 30px;
     text-transform: uppercase;
     margin-top: 25px;
@@ -928,4 +929,12 @@ a:hover {
 }
 .sidemenu a svg {
   margin-right: 25px;
+
+.aboutList{
+  background-color: rgba(10,6,243, 0.7);
+  border-radius: 8px;
+}
+
+.aboutText ol li{
+  list-style: initial;
 }
