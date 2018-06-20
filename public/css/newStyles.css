@@ -1,7 +1,7 @@
 /*
 main: #3b6379;
 blue: #0a06f3;
-
+hover: #2e4f61;
 */
 
 
@@ -481,14 +481,16 @@ cursor: pointer;
 }
 
 /*Start about page*/
-.wrapperAbout{
-  /*background: url(../images/aboutBg.jpg) no-repeat;*/
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  /*height: 100%;*/
+.wrapper {
+  overflow-x: hidden;
+  overflow-y: auto;
   padding: 2% 3%;
 }
-
+.aboutPage {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
 .aboutText{
   font-family: DinProLight;
   font-size: 0.95rem;
@@ -514,12 +516,18 @@ cursor: pointer;
 
 /*Start products page*/
 
-.wrapperProducts{
+
+
+.prodDesktop {
+    background: url(../images/aboutBg-2.jpg) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.galleryDesktop {
   background: url(../images/aboutBg-2.jpg) no-repeat;
   background-size: 100% 100%;
-  padding: 2% 3%;
+  overflow: hidden;
 }
-
 .productText{
   font-family: DinPro;
   font-size: 1rem;
@@ -571,14 +579,15 @@ cursor: pointer;
 /*End products page*/
 
 /*Start contacts page*/
-.contactsWrapper{
+
+.contactsPage {
   background: url(../images/aboutBg-3.jpg) no-repeat;
   background-size: 100% 100%;
-  padding: 2% 3%;
+  overflow: hidden;
 }
-
 .contactRow{
   margin-top: 10%;
+  margin-left: 15%;
 }
 
 .contactsBlocks{
@@ -606,21 +615,23 @@ cursor: pointer;
 }
 
 .callBackButton{
-  border: 1px solid #fff;
-  border-radius: 8px;
-  font-family: DinPro;
-  color: #075AC4 !important;
-  font-size: 1.3rem;
-  padding: 5px 20px;
-  cursor: pointer;
-  position: fixed;
-  left: 40%;
-  bottom: 10%;
-  background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 1px;
+    font-family: FiraSansMedium;
+    color: #075AC4 !important;
+    font-size: 1.3rem;
+    padding: 0px 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: fixed;
+    line-height: 45px;
+    left: 40%;
+    bottom: 10%;
+    background-color: #fff;
 }
 
 .callBackButton:hover{
-  background-color: #075AC4;
+  background-color: #2e4f61;
   color: #fff !important;
   transition: .8s;
 }
@@ -780,7 +791,6 @@ li.mySlide{
 .textIndent {
     font-family: DinPro;
     background: #3b6379b3;
-    border-radius: 8px;
     padding: 10px 30px;
     text-transform: uppercase;
     margin-top: 25px;
@@ -813,9 +823,7 @@ li.mySlide{
   h2 {
     font-size: 1.5em !important;
   }
-  .contactsWrapper,
-  .wrapperAbout,
-  .wrapperProducts {
+  .wrapper {
     background-size: unset;
   }
 }
@@ -930,11 +938,36 @@ a:hover {
 .sidemenu a svg {
   margin-right: 25px;
 
-.aboutList{
-  background-color: rgba(10,6,243, 0.7);
+}
+.aboutList  {
+  background-color: #3b6379b3;
   border-radius: 8px;
 }
 
 .aboutText ol li{
   list-style: initial;
+}
+
+
+/*------------------ gallery page ------------------------------*/
+
+.galleryRow {
+  margin-left: 15%;
+}
+
+.imgBlock {
+  height: 150px;
+  flex: 0 0 24%;
+  border: 1px solid #fff;
+  overflow:hidden;
+  margin-bottom: 25px;
+  margin-right: 1%;
+  cursor: pointer;
+}
+.galleryImg {
+  width: 120%;
+  display: block;
+
+  border-radius: 2px;
+  margin: 0 auto;
 }

@@ -4,20 +4,20 @@
 <style>
 
 </style>
-<div id="fullpage" class="desktopAboutPage" style="background: #012896bb">
-  <div class="wrapperAbout section2" style="background-image: url('images/aboutBg-1.jpg');">
+<div class="desktopAboutPage anoutPage" style="background: #012896bb">
+  <div class="wrapper section2" style="background-image: url('images/aboutBg-1.jpg');">
     <div id="pseudoElement"></div>
     <div class="row">
-      <div class="col-md-7">
+      <div class="col-md-7 offset-md-2">
        <h2 class="whiteText companyTitle">О нас</h2>
      </div>
-     <div class="col-md-5">
+     <div class="col-md-3">
       @include('frontend.partials._search')
     </div>
   </div>
   <div class="containerFirst">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-10 offset-md-2">
         <p class="whiteText aboutText textIndent">
         ТОО «Хлопкопром-Целлюлоза» занимается производством продукции из хлопкового сырья. Номенклатура предприятия включает в себя следующие виды продукции:
         </p>

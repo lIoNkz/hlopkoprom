@@ -1,11 +1,11 @@
 ﻿@extends('frontend.layouts.master')
 
 @section('content') 
-  <div id="fullpage" class="prodDesktop">
-    <div class="wrapperProducts section2">
+  <div class="prodDesktop">
+    <div class="wrapper section2">
       <div id="pseudoElement"></div>
       <div class="row">
-        <div class="col-md-7">
+        <div class="col-md-7 offset-md-2">
                   <h2 class="whiteText companyTitle">Продукция</h2>
           <p class="whiteText productText textIndent">
 На территории ЮКО выращивается хлопчатник. В результате его переработки получается хлопковое волокно и хлопковые отходы - линт, улюк. Данное хлопковое сырье применяется для производства нашей продукции: 
@@ -17,7 +17,7 @@
           <p class="whiteText productText textIndent">Проект является уникальным и не имеет аналогов в РК. Объем и номенклатура продукции позволяют утверждать, что завод не имеет аналогов на территории СНГ.
           </p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-3">
           @include('frontend.partials._search')
         </div>
       </div>
