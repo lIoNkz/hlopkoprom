@@ -973,6 +973,33 @@ a:hover {
   list-style: initial;
 }
 
+/*----------- Language bar ------------------*/
+
+.fixedbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #3b6379;
+  width: 75px;
+  height: 25px;
+  font-family: FiraSansMedium;
+}
+
+.fixedbar a{
+  display: block;
+  float: left;
+  width: 25px;
+  height: 100%;
+}
+.fixedbar a img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.fixedbar a img:hover {
+  opacity: 1;
+}
 
 /*------------------ gallery page ------------------------------*/
 

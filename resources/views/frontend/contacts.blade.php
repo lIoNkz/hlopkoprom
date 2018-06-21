@@ -102,7 +102,7 @@
 		<div id="pseudoElement"></div>
 		<div class="row">
 			<div class="col-md-10 offset-md-2">
-				<h2 class="whiteText companyTitle">Контакты</h2>
+				<h2 class="whiteText companyTitle">@lang('a.contacts')</h2>
 			</div>
 		</div>
 		<div class="row contactRow">
@@ -111,13 +111,13 @@
 				
 			</div>
 			<div class="col-md-4 contactInfo">
-				<p class="fg1">Телефон</p>
+				<p class="fg1">@lang('a.phone')</p>
 				<p class="fg2">8-777-777-77-77</p>
-				<p class="fg1">Адрес</p>
-				<p class="fg2">Казахстан, ЮКО, Ваш адрес</p>
+				<p class="fg1">@lang('a.address')</p>
+				<p class="fg2">@lang('a.address_text')</p>
 				<p class="fg1">E-mail</p>
 				<p class="fg2">hlopkoprom@gmail.com</p>
-				<a class="callBackButton" data-remodal-target="modal">Заказать обратный звонок</a>
+				<a class="callBackButton" data-remodal-target="modal">@lang('a.request')</a>
 			</div>
 		</div>
 	</div>
@@ -125,12 +125,12 @@
 
 <!-- Всплывающее окно -->
 <div  class="remodal" data-remodal-id="modal">
-  <h3>Обратный звонок</h3>
+  <h3>@lang('a.callback')</h3>
   <br>
 		<form action="{{ route('contact.store') }}" method="post" onsubmit="return validateForm()">
 						{{ csrf_field() }}
 			<div class="wrap-input">
-			   <input  name="name" class="remodal-inputs" id="name" placeholder="Ваше имя">
+			   <input  name="name" class="remodal-inputs" id="name" placeholder="@lang('a.name')">
 				@if($errors->has('name'))
 			   <small class="form-text invalid-feedback">{{ $errors->first('name') }}</small>
 				@endif
@@ -148,7 +148,7 @@
 				@endif
 			</div>
 			<div class="wrap-input">
-			   <input type="submit" class="btns" value="Отправить" >
+			   <input type="submit" class="btns" value="@lang('a.send')" >
 			</div>
 
 		</form>

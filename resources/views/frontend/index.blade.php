@@ -33,7 +33,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-caption d-none d-md-block">
-        <p class="textIndent">Единственный на сегодняшний день производитель КМЦ в Казахстане</p>
+        <p class="textIndent">@lang('a.slider-1')</p>
       </div>
     </div>
     <div class="carousel-item">

@@ -5,31 +5,57 @@ namespace App\Http\Controllers;
 use Mail;
 use App\Mail\ContactMail;
 use Illuminate\Http\Request;
+use App;
 
 class SiteController extends Controller
 {
     public function index()
     {
+        if(!(session('lang'))) {
+            self::setLang('ru');
+        } else {
+            self::setLang(session('lang'));
+        }
     	return view('frontend.index');
     }
 
     public function about()
     {
+        if(!(session('lang'))) {
+            self::setLang('ru');
+        } else {
+            self::setLang(session('lang'));
+        }
     	return view('frontend.about');
     }
 
     public function gallery()
     {
+        if(!(session('lang'))) {
+            self::setLang('ru');
+        } else {
+            self::setLang(session('lang'));
+        }
         return view('frontend.gallery');
     }
 
     public function products()
     {
+        if(!(session('lang'))) {
+            self::setLang('ru');
+        } else {
+            self::setLang(session('lang'));
+        }
     	return view('frontend.products');
     }
 
     public function product($id)
     {
+        if(!(session('lang'))) {
+            self::setLang('ru');
+        } else {
+            self::setLang(session('lang'));
+        }
         if($id == 1) {
             $text = "Предназначена для получения из неё ваты медицинской санитарно-гигиенической, хирургической и других санитарно-гигиенических изделий. ";
             $title = "Хлопковая гигроскопическая вата";
@@ -61,6 +87,11 @@ class SiteController extends Controller
 
     public function contacts()
     {
+        if(!(session('lang'))) {
+            self::setLang('ru');
+        } else {
+            self::setLang(session('lang'));
+        }
     	return view('frontend.contacts')->with(['message' => '']);
     }
 
@@ -86,5 +117,13 @@ class SiteController extends Controller
 
 
         return view('frontend.contacts')->with(['message'=> $success]);
+    }
+
+    public function setLang($language)
+    {
+        App::setLocale($language);
+        session(['lang' => $language]);
+        $lang = session('lang');
+        return back();
     }
 }

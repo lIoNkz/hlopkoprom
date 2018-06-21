@@ -22,6 +22,7 @@ Route::get('/aboutTest', 'SiteController@aboutTest');
 Route::get('/products', 'SiteController@products');
 Route::get('/products/{id}', 'SiteController@product');
 Route::get('/contacts', 'SiteController@contacts');
+Route::get('/lang/{lang}', 'SiteController@setLang');
 Route::post('/contacts', [
 	'uses'  => 	'SiteController@store',
 	'as' => 'contact.store'

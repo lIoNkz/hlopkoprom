@@ -9,7 +9,7 @@
     <div id="pseudoElement"></div>
     <div class="row">
       <div class="col-md-10 offset-md-2">
-       <h2 class="whiteText companyTitle">О нас</h2>
+       <h2 class="whiteText companyTitle">@lang('a.about')</h2>
      </div>
   </div>
   <div class="containerFirst">

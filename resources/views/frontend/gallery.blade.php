@@ -6,7 +6,7 @@
       <div id="pseudoElement"></div>
       <div class="row">
           <div class="col-md-7 offset-md-2">
-          	<h2 class="whiteText companyTitle">Галерея</h2>
+          	<h2 class="whiteText companyTitle">@lang('a.gallery')</h2>
           </div>
       </div>
       <div class="row galleryRow">
@@ -85,7 +85,7 @@
     resizeDuration: 200,
     wrapAround: true,
     alwaysShowNavOnTouchDevices: true,
-    albumLabel: "Изображение %1 из %2"
+    albumLabel: "@lang('a.image')"
   })
 </script>
 @endsection

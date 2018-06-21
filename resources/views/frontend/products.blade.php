@@ -6,7 +6,7 @@
       <div id="pseudoElement"></div>
       <div class="row">
         <div class="col-md-7 offset-md-2">
-            <h2 class="whiteText companyTitle">Продукция</h2>
+            <h2 class="whiteText companyTitle">@lang('a.production')</h2>
           
         </div>
         <div class="col-md-3">
