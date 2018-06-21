@@ -176,13 +176,13 @@ NAMESPACE: 'modal',
 		var phone = document.getElementById("phone_mask").value;
 				
 		if (name == ""){
-			$("#name").attr('placeholder', 'Введите Имя').val('').css({'border':'2px solid red'});
+			$("#name").attr('placeholder', "@lang('a.error1')").val('').css({'border':'2px solid red'});
 			//return false;
 		}
 		else $("#name").css('border', '2px solid green'); 
 
 		if (phone == ""){
-			$("#phone_mask").attr('placeholder', 'Введите Номер телефона').val('').css({'border':'2px solid red'});
+			$("#phone_mask").attr('placeholder', "@lang('a.error2')").val('').css({'border':'2px solid red'});
 				return false;
 		}
 

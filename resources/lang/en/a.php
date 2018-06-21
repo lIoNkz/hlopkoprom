@@ -18,4 +18,6 @@ return [
     'name' => 'Your name',
 	'image' => 'Image %1 from %2',
 	'slider-1' => 'THE ONLY MANUFACTURER OF KMC IN KAZAKHSTAN FOR TODAY',
+    'error1' => 'Type your name',
+    'error2' => 'Type your phone',
 ];

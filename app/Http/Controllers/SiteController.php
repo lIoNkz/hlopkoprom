@@ -106,9 +106,15 @@ class SiteController extends Controller
             'name' => $request->name,
             'phone' => $request->phone
         ];
-
-        $success = '<div class="success-text">Мы вам перезвоним!</div>';
-
+        if(session('lang') == 'ru') {
+            $success = '<div class="success-text">Мы вам перезвоним!</div>';
+        }
+        if(session('lang') == 'en') {
+            $success = '<div class="success-text">We will callback later!</div>';
+        }        
+        if(session('lang') == 'kz') {
+            $success = '<div class="success-text">Кешірек біз сізбен хабарласамыз!</div>';
+        }
         //Mail::to(env('MAIL_TO','admin@ahbk.kz'))->send(new ContactMail($data));
 
 
